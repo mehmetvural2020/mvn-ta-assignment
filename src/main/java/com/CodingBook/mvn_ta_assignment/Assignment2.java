@@ -39,12 +39,12 @@ public class Assignment2 {
 		locators.add("//span[contains(text(), \"Basic Test Automation – Assignments\")]");
 		locators.add("//a[contains(text(), 'youtube')]");	//Youtube link
 		
-		// Print the data from List Option 1
-//		for(String locator : locators) {
-//			WebElement element1 = driver.findElement(By.xpath(locator));
-//			element1.click();
-//			Thread.sleep(1000);	
-//		}
+//		 Print the data from List Option 1
+		for(String locator : locators) {
+			WebElement element1 = driver.findElement(By.xpath(locator));
+			element1.click();
+			Thread.sleep(1000);	
+		}
 		
 		// Print the data from List Option 2 : 
 		locators.forEach((locator)->System.out.println(locator));
