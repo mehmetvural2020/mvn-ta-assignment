@@ -47,7 +47,7 @@ public class App
 //		}
 		
 		// Print the data from List Option 2 : 
-		locators.forEach((locator)->System.out.println(locator));
+//		locators.forEach((locator)->System.out.println(locator));
 
 		
     }
